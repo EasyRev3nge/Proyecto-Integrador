@@ -43,8 +43,11 @@ header {
 .logo {
     padding: 0 40px;
     line-height: 80px;
+    
+}
 
-
+.logo-img {
+    height: 70px;
 }
 
 .nav-menu {
@@ -95,7 +98,7 @@ header {
 
 @media (max-width: 768px) {
     body {
-        padding-top: 70px;
+        padding-top: 60px;
     }
 
     header {
@@ -110,6 +113,11 @@ header {
 
 
     }
+
+   
+    
+    
+    
 
     .nav-menu {
         flex-direction: column;
