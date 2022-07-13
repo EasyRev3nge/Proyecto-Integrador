@@ -89,7 +89,7 @@ header {
     background: none;
     border: none;
     font-size: 30px;
-    padding: 0 20px;
+    padding: 0 35px;
     line-height: 60px;
     cursor: pointer;
     display: none;
@@ -155,6 +155,7 @@ header {
     .nav-toggle {
         display: block;
         height: 70px;
+        
 
     }
 
@@ -167,11 +168,20 @@ header {
         outline: none;
     }
 
+    div.herothingscontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    
+    }
+
 }
 
 #hero {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
     flex-direction: column;
@@ -188,23 +198,35 @@ header {
 
 }
 
+.herothingscontainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0px 50px 0px 50px;
+    gap: 30px;
+
+}
+
 h1 {
-    font-size: 3.7em;
+    font-size: 5em;
     color: beige;
 }
 
 .banner-span {
     color: beige;
-    font-size: 1.7em;
+    font-size: 2.3em;
+    
 }
 
 .cat-button {
     background-color: #F03A73;
-    padding: 10px 18px;
+    padding: 13.6px 28px 12px;
     text-transform: uppercase;
     color: beige;
-    font-size: 1.5em;
-    border-radius: 8px;
+    font-size: 2em;
+    border-radius: 18px;
 }
 
 .cat-button:hover {
