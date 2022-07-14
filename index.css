@@ -47,7 +47,7 @@ header {
 }
 
 .logo-img {
-    height: 70px;
+    height: 80px;
 }
 
 .nav-menu {
@@ -114,6 +114,10 @@ header {
 
     }
 
+    .logo-img {
+        height: 70px;
+    }
+
    
     
     
@@ -174,6 +178,7 @@ header {
         align-items: center;
         flex-direction: column;
         gap: 30px;
+        font-size: 0.8rem;
     
     }
 
@@ -204,8 +209,8 @@ header {
     align-items: flex-start;
     flex-direction: column;
     width: 100vw;
-    padding: 0px 50px 0px 50px;
-    gap: 30px;
+    padding: 0px 100px 0px 100px;
+    gap: 45px;
 
 }
 
@@ -226,7 +231,7 @@ h1 {
     text-transform: uppercase;
     color: beige;
     font-size: 2em;
-    border-radius: 18px;
+    border-radius: 15px;
 }
 
 .cat-button:hover {
